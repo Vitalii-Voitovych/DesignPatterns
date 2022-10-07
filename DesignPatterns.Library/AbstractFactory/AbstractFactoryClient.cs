@@ -1,10 +1,10 @@
 ﻿namespace DesignPatterns.Library.AbstractFactory
 {
-    public class Client
+    public class AbstractFactoryClient
     {
         private IFurnitureFactory factory;
 
-        public Client(IFurnitureFactory factory)
+        public AbstractFactoryClient(IFurnitureFactory factory)
         {
             this.factory = factory;
         }

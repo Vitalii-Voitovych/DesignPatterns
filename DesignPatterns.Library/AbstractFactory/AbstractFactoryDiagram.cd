@@ -1,83 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.ModernFurnitureFactory">
-    <Position X="7" Y="4.25" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.ModernFurnitureFactory">
+    <Position X="7" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\ModernFurnitureFactory.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.VictorianFurnitureFactory">
-    <Position X="5" Y="4.25" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.VictorianFurnitureFactory">
+    <Position X="5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\VictorianFurnitureFactory.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.Client">
-    <Position X="6" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAI=</HashCode>
-      <FileName>AbstractFactory\Client.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.Models.ModernChair" Collapsed="true">
-    <Position X="0.5" Y="4.25" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.Models.ModernChair" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAECAAAAAAAAAAAAAAABAgAAAAIAAA=</HashCode>
       <FileName>AbstractFactory\Models\ModernChair.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.Models.ModernTable" Collapsed="true">
-    <Position X="2.5" Y="4.25" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.Models.ModernTable" Collapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAEAAAAAAAAAAAAAAAQBAgAAAAIAAA=</HashCode>
       <FileName>AbstractFactory\Models\ModernTable.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.Models.VictorianChair" Collapsed="true">
-    <Position X="0.5" Y="3.5" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.Models.VictorianChair" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAECAAAAAAAAAAAAAAABAgAAAAIAAA=</HashCode>
       <FileName>AbstractFactory\Models\VictorianChair.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.MyCode.AbstractFactory.Models.VictorianTable" Collapsed="true">
-    <Position X="2.5" Y="3.5" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.Models.VictorianTable" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAQAAAAAEAAAAAAAAAAAAAAAQBAgAAAAIAAA=</HashCode>
       <FileName>AbstractFactory\Models\VictorianTable.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="DesignPatterns.MyCode.AbstractFactory.IFurnitureFactory">
-    <Position X="6" Y="2.5" Width="1.5" />
+  <Class Name="DesignPatterns.Library.AbstractFactory.AbstractFactoryClient">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAI=</HashCode>
+      <FileName>AbstractFactory\AbstractFactoryClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Library.AbstractFactory.IFurnitureFactory">
+    <Position X="6" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\IFurnitureFactory.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="DesignPatterns.MyCode.AbstractFactory.Interfaces.IChair" Collapsed="true">
-    <Position X="0.5" Y="2.25" Width="1.5" />
+  <Interface Name="DesignPatterns.Library.AbstractFactory.Interfaces.IChair">
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\Interfaces\IChair.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="DesignPatterns.MyCode.AbstractFactory.Interfaces.ITable" Collapsed="true">
-    <Position X="2.5" Y="2.25" Width="1.5" />
+  <Interface Name="DesignPatterns.Library.AbstractFactory.Interfaces.ITable">
+    <Position X="2.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\Interfaces\ITable.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="DesignPatterns.MyCode.AbstractFactory.Interfaces.IFurniture" Collapsed="true">
-    <Position X="1.5" Y="1.25" Width="1.5" />
+  <Interface Name="DesignPatterns.Library.AbstractFactory.Interfaces.IFurniture">
+    <Position X="1.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAgAAAAAAAA=</HashCode>
       <FileName>AbstractFactory\Interfaces\IFurniture.cs</FileName>

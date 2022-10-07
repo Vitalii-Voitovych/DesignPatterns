@@ -6,6 +6,6 @@ Console.ReadLine();
 
 static void AbstractFactory()
 {
-    new Client(new ModernFurnitureFactory()).Main();
-    new Client(new VictorianFurnitureFactory()).Main();
+    new AbstractFactoryClient(new ModernFurnitureFactory()).Main();
+    new AbstractFactoryClient(new VictorianFurnitureFactory()).Main();
 }
