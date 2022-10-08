@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Library.FactoryMethod.Models.Chair">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>FactoryMethod\Models\Chair.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Library.FactoryMethod.Models.Table">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>FactoryMethod\Models\Table.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Library.FactoryMethod.Creator">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FactoryMethod\Creator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Library.FactoryMethod.FactoryMethodClient">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAABAAAAAI=</HashCode>
+      <FileName>FactoryMethod\FactoryMethodClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Library.FactoryMethod.ChairCreator">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FactoryMethod\ChairCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Library.FactoryMethod.TableCreator">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FactoryMethod\TableCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Library.FactoryMethod.Interfaces.IFurniture">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>FactoryMethod\Interfaces\IFurniture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
