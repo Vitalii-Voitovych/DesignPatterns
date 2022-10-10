@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Library.FactoryMethod
+﻿namespace DesignPatterns.Library.FactoryMethod
 {
     public class FactoryMethodClient
     {
@@ -17,9 +11,9 @@ namespace DesignPatterns.Library.FactoryMethod
 
         public void Main()
         {
-            Console.WriteLine("Client starts...");
+            Console.WriteLine("FactoryMethodClient starts...");
             ClientMethod(creator);
-            Console.WriteLine("Client finish!\n");
+            Console.WriteLine("FactoryMethodClient finish!\n");
         }
         
         public void ClientMethod(Creator creator)

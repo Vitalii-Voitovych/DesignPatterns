@@ -11,9 +11,9 @@
 
         public void Main()
         {
-            Console.WriteLine("Client starts...");
+            Console.WriteLine("AbstractFactoryClient starts...");
             ClientMethod(factory);
-            Console.WriteLine("Client finish!\n");
+            Console.WriteLine("AbstractFactoryClient finish!\n");
         }
 
         private void ClientMethod(IFurnitureFactory factory)

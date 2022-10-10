@@ -1,5 +1,7 @@
 ﻿using DesignPatterns.Library.AbstractFactory;
+using DesignPatterns.Library.Builder;
 using DesignPatterns.Library.FactoryMethod;
+
 
 
 Console.ReadLine();
@@ -14,4 +16,9 @@ static void FactoryMethod()
 {
     new FactoryMethodClient(new ChairCreator()).Main();
     new FactoryMethodClient(new TableCreator()).Main();
+}
+
+static void Builder()
+{
+    new BuilderClient().Main();
 }
