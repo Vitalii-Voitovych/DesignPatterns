@@ -2,7 +2,7 @@
 using DesignPatterns.Library.Builder;
 using DesignPatterns.Library.FactoryMethod;
 
-
+Builder();
 
 Console.ReadLine();
 

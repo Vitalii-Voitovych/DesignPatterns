@@ -1,15 +1,15 @@
 ﻿namespace DesignPatterns.Library.Builder.Models
 {
     /// <summary>
-    /// Автомобіль
+    /// Вантажівка
     /// </summary>
-    public class Car
+    public class Truck
     {
         /// <summary>
         /// Назва моделі
         /// </summary>
         public string Model { get; set; } = "";
-        
+
         /// <summary>
         /// Двигун автомобіля
         /// </summary>
@@ -32,7 +32,7 @@
 
         public override string ToString()
         {
-            return $"Car: {Model} {Engine?.Power}hp {Weight}kg";
+            return $"Truck: {Model} {Engine?.Power}hp {Weight}kg";
         }
     }
 }
