@@ -14,5 +14,9 @@
         /// Вага корпусу
         /// </summary>
         public double Weight { get; set; }
+        public override string ToString()
+        {
+            return $"Body: {Model} {Weight}kg";
+        }
     }
 }

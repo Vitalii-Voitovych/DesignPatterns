@@ -32,7 +32,7 @@
 
         public override string ToString()
         {
-            return $"Car: {Model} {Engine?.Power}hp {Weight}kg";
+            return $"Car: {Model}\n {Engine}\n {Body}\n {Tank}\n Weight = {Weight}kg";
         }
     }
 }

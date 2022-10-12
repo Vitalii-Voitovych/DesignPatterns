@@ -24,5 +24,9 @@
         /// Вага двигуна
         /// </summary>
         public double Weight { get; set; }
+        public override string ToString()
+        {
+            return $"Engine: {Model} {Power}hp, {MaxSpeed}km, {Weight}kg";
+        }
     }
 }

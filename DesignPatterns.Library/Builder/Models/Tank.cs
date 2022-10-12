@@ -19,5 +19,9 @@
         /// Вага баку
         /// </summary>
         public double Weight { get; set; }
+        public override string ToString()
+        {
+            return $"Tank: {Model} {MaxVolume}l, {Weight}kg";
+        }
     }
 }

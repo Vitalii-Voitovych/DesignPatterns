@@ -36,5 +36,10 @@ namespace DesignPatterns.Library.FactoryMethod.Models
         {
             Console.WriteLine($"Table info: {Model} ${Price}");
         }
+
+        public override string ToString()
+        {
+            return $"Table info: {Model} ${Price}";
+        }
     }
 }
